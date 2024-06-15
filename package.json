@@ -20,6 +20,7 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
 		"globals": "^15.0.0",
+		"mdsvex": "^0.11.2",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
 		"svelte": "^4.2.7",
@@ -29,5 +30,11 @@
 		"typescript-eslint": "^8.0.0-alpha.20",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource/jetbrains-mono": "^5.0.20",
+		"@fontsource/manrope": "^5.0.20",
+		"lucide-svelte": "^0.395.0",
+		"open-props": "^1.7.4"
+	}
 }
