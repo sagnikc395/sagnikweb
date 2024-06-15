@@ -5,6 +5,10 @@
 <!-- Footer -->
 <footer>
 	<p>{config.title} &copy {new Date().getFullYear()}</p>
+	<p class="socials">
+		<a href="https://github.com/sagnikc395" rel="noreferrer">Github</a>
+		<a href="https://twitter.com/sagnikcw" rel="noreferrer">Twitter</a>
+	</p>
 </footer>
 
 <style>
@@ -16,4 +20,5 @@
 	p {
 		color: var(--text-2);
 	}
+	
 </style>
