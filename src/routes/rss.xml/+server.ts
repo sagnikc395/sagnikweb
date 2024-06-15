@@ -34,4 +34,3 @@ export async function GET({ fetch }) {
 	return new Response(xml, { headers });
 }
 
-export const prerender = 'auto';
