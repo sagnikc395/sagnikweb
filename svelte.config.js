@@ -4,10 +4,19 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 // ...
 import { mdsvex, escapeSvelte } from 'mdsvex';
 import { getHighlighter } from 'shiki';
+import remarkUnwrapImages from 'remark-unwrap-images';
+import remarkToc from 'remark-toc';
+import rehypeSlug from 'rehype-slug';
+
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
+	layout: {
+		_: './src/mdsvex.svelte'
+	},
+	remarkPlugins: [remarkUnwrapImages, [remarkToc, { tight: true }]],
+	rehypePlugins: [rehypeSlug],
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
 			const highlighter = await getHighlighter({
