@@ -1,8 +1,9 @@
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
+// ...
 import { mdsvex, escapeSvelte } from 'mdsvex';
-import { getHighlighter } from 'shiki/index.mjs';
+import { getHighlighter } from 'shiki';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
@@ -10,7 +11,7 @@ const mdsvexOptions = {
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
 			const highlighter = await getHighlighter({
-				themes: ['vitesse-dark'],
+				themes: ['poimandres'],
 				langs: ['javascript', 'typescript']
 			});
 			await highlighter.loadLanguage('javascript', 'typescript');
