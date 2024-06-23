@@ -4,7 +4,7 @@
 
 <!-- Footer -->
 <footer>
-	<p>{config.title} &copy {new Date().getFullYear()}</p>
+	<p>{config.username} &copy {new Date().getFullYear()}</p>
 	<p class="socials">
 		<a href="https://github.com/sagnikc395" rel="noreferrer">Github</a>
 		<a href="https://twitter.com/sagnikcw" rel="noreferrer">Twitter</a>
