@@ -14,7 +14,7 @@
 	<br />
 	<li>
 		- <a href="https://github.com/sagnikc395/franz.git">franz</a>
-		<p>a kafaka-esque message queue written in Go to understand pub/sub architecture.</p>
+		<p>a kafka-esque message queue written in Go to understand pub/sub architecture.</p>
 	</li>
 
     <br />

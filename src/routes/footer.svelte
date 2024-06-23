@@ -20,5 +20,12 @@
 	p {
 		color: var(--text-2);
 	}
+
+	a, a:visited,a:active {
+		color:inherit;
+	}
+	a:hover {
+		color: pink;
+	}
 	
 </style>

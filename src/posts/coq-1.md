@@ -4,7 +4,7 @@ description: My experience learning Coq as a beginner
 date: '2024-6-23'
 categories:
   - coq
-  - theorm-prover
+  - theorem-prover
 published: true
 ---
 
@@ -19,7 +19,7 @@ I have been recently exploring the areas of automatic theorm proving and as one 
 I came across [Mukesh Tiwari](https://x.com/mukesh_tiwari) has a awesome [playlist](https://www.youtube.com/watch?v=stNeltLW12s&list=PLKdfCSnZFxXHiaYo5vy2Y1hCT6uwzyaTW) on Youtube on Theorm Proving using Coq and has covered it for beginners like me. 
 
 
-### Automated Theorm Proving :
+### Automated Theorem Proving :
 Automated Theorem Proving (ATP) deals with writing a computer program that can "prove" that some statement (i.e conjecture) is a logical consequence of a set of statements (the axioms).
 
 Given the set of axioms defined, the question to ask is whether the conclusion is logical or not ?

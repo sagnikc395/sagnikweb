@@ -3,6 +3,7 @@
 	import * as config from '$lib/config';
 
 	export let data;
+	
 </script>
 
 <svelte:head>
@@ -48,5 +49,11 @@
 
 	.description {
 		margin-top: var(--size-3);
+	}
+	a, a:visited,a:active {
+		color:inherit;
+	}
+	a:hover {
+		color: pink;
 	}
 </style>

@@ -34,9 +34,14 @@
 	.links {
 		margin-block: var(--size-7);
 	}
-
-	a {
+	a,
+	a:visited,
+	a:active {
 		color: inherit;
+	}
+
+	a:hover {
+		color: pink;
 		text-decoration: none;
 	}
 
